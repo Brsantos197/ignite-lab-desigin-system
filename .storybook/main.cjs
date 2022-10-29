@@ -19,7 +19,6 @@ module.exports = {
     if (configType === 'PRODUCTION') {
       config.base = '/ignite-lab-design-system/'      
     }
-    console.log("CONFIG AQUI ====>",config);
     return config
   }
 }
